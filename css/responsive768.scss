@@ -1,0 +1,109 @@
+@media screen and (max-width: 768px){
+	// Esta es la parte del navegador
+	.contenedor-navegador{
+		h1{
+			width: 40%;
+			margin: 0 7px;
+			font-size: 1.6rem;
+			padding-top: 10px;
+			padding-bottom: 10px;
+			
+		}
+		.menu{
+			margin: 0 7px;
+			a{
+				padding:9px;
+				font-size: 1.4rem;
+			}
+		}
+	}
+
+		// Esta es la parte Acerca de
+	.Presentacion .informacion{
+		width: 80%;
+		padding: 16px;
+		.subtitulo{
+			padding-bottom: 7px;
+			font-size: 1.5rem;
+
+		}
+		.texto{
+			line-height: 1.7rem;
+			font-size: 1.3rem;
+		}
+	}
+	// Esta es la parte de los trabajos
+	.trabajos{
+		display: flex;
+		flex-wrap: wrap;
+		.columna-100-576{
+			order:1;
+			width: 100%;
+			display: flex;
+			.contenedor-subtitulo{
+				.servicios{
+					font-size: 1.2rem;
+				}
+			}
+			.columna-70-576{
+				width: 40%;
+				.descripcion-trabajo{
+					font-size: .7rem;
+					padding: 9px 0;
+				}
+			}
+		}
+		.descripcion{
+			order: 2;
+			width: 100%;
+			border-left: .1px solid $colorPrimario;
+			padding:15px;
+			.contenedor-texto{
+				padding:20px;
+				p{
+					line-height: 2rem;
+					text-align: justify;
+				}
+			}
+		}
+	}
+
+	// Esta es la parte de la ubicacion
+	.contenedor-ubicacion{
+		padding:0;
+		border-top: 2px solid $colorPrimario;
+		.contenedor-subtitulo{
+			display: none;
+		}
+		.ubicacion{
+			width: 100%;
+			margin: 1px;
+		}
+	}
+
+	// Esta es la parte del Formulario
+	.contenedor-contacto{
+		.contacto{
+			.contenedor-subtitulo{
+				.texto-subtitulo{
+					font-size: 1.2rem;
+				}
+			}
+			.formulario{
+				.boton{
+					padding: 10px 15px;
+				}
+			}
+		}
+	}
+
+	// Seccion Footer
+	footer{
+		.contenedor-piePagina{
+			font-size: 1.1rem;
+		}
+		.iconos{
+			font-size: 1.3rem;
+		}
+	}
+}

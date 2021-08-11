@@ -1,0 +1,48 @@
+@media screen and (max-width: 380px ){
+	//navegador
+	
+	.contenedor-navegador{
+		padding: 7px 0;
+		.titulo-principal{
+			width: 100%;
+		}
+		.menu{
+			display: flex;
+			flex-direction: column;
+			width: 30%;
+			margin: 0 auto;
+			.enlace{
+				border-bottom: 1.5px solid $colorSecundario;
+			}
+		}
+	}
+	//Presentacion
+	.Presentacion{
+		
+		.informacion{
+			.subtitulo{
+				font-size: 1.2rem;
+				padding: 5px 0;
+			}
+			.texto{
+				font-size:1rem;
+			}
+		}
+	}
+
+	//formulario
+	.contenedor-contacto{
+		.contacto{
+			.formulario{
+				display: flex;
+				flex-direction: column;
+				input[type='text']{
+					width: 100%;
+				}
+				input[type='email']{
+					width: 100%;
+				}
+			}
+		}
+	}
+}

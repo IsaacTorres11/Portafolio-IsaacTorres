@@ -1,0 +1,40 @@
+$colorPrimario: #112240;
+$colorSecundario: #5ff1d0;
+
+
+.contenedor-navegador{
+	width: 100%;
+	background-color:$colorPrimario;
+	justify-content: space-between;
+	align-items: center;
+	display: flex;
+	padding-left: 20px;
+	padding-right:20px;
+
+	h1{
+		color: #5ff1d0;
+		font-size: 1.8rem;
+		
+	}
+	.menu{
+		
+		a{
+			padding:15px;
+			text-decoration: none;
+			color: $colorSecundario;
+			display: inline-block;
+			font-size: 1.6rem;
+			text-align: center;
+			
+			&:hover{
+			background:$colorSecundario;
+			color:$colorPrimario;
+
+			}
+
+		}
+	}
+	.hamburguesa{
+		display: none;
+	}
+}

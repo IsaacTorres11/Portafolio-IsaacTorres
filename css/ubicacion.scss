@@ -1,0 +1,82 @@
+.contenedor-ubicacion{
+	width: 100%;
+	background: $colorPrimario;
+	padding: 25px;
+	border-top: 2px solid $colorSecundario;
+}
+
+.contenedor-ubicacion  .contenedor-subtitulo{
+	width: 100%;
+	padding-bottom: 25px;
+	.texto-subtitulo{
+		color: $colorTexto;
+		font-size: 1.8rem;
+		text-align: center;
+	}
+}
+
+.contenedor-ubicacion .ubicacion{
+	width: 90%;
+	margin: 0 auto;
+}
+.contenedor-ubicacion .ubicacion iframe{
+	width: 100%;
+}
+
+.contenedor-contacto {
+	background:$colorPrimario;
+	width: 100%;
+	padding:15px;
+	.contacto{
+		width: 90%;
+		background:$colorPrimario;
+		margin: 0 auto;
+		.texto-subtitulo{
+			color: $colorTexto;
+			font-size: 1.8rem;
+			text-align: center;
+			padding-bottom:15px;
+		}
+	}
+}
+
+.contenedor-contacto .contacto .formulario{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.contenedor-contacto .contacto .formulario input[type='text'],
+.contenedor-contacto .contacto .formulario input[type='email'],
+.contenedor-contacto .contacto .formulario textarea{
+	border:2px solid $colorSecundario;
+	border-radius: 5px;
+	padding: 15px 20px;
+	font-size: 20px;
+	color: #a4a4a4;
+}
+
+.contenedor-contacto .contacto .formulario input[type='text'],
+.contenedor-contacto .contacto .formulario input[type='email']{
+	width: 49%;
+	margin-bottom: 15px;
+}
+
+.contenedor-contacto .contacto .formulario textarea{
+	width: 100%;
+	margin-bottom: 15px;
+	height: 100px;
+	min-width:  100%;
+	max-width: 100%; 
+	max-height: 200px;
+	min-height: 100px;
+}
+
+.contenedor-contacto .contacto .formulario .boton{
+	margin: 0 auto;
+	background: $colorSecundario;
+	color: $colorPrimario;
+	border:none;
+	border-radius: 3px;
+	padding: 15px 30px;
+	cursor: pointer;
+}

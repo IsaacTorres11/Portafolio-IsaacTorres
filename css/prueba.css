@@ -1,0 +1,19 @@
+
+
+.Contenedor{
+	background: orange;
+}
+
+.Contenedor .contenedor-imagen{
+	background: blue;
+	padding: 50px;
+	display: inline-block;
+	width: 15%;
+}
+
+.Contenedor .contenedor-imagen .prueba{
+	width: 100%;
+	object-fit: cover;
+}
+
+

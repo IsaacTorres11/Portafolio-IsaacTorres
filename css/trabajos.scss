@@ -1,0 +1,58 @@
+.trabajos{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+
+	.columna-60{
+		width: 60%;
+		background:$colorPrimario;
+		display: flex;
+		flex-wrap: wrap;
+		padding: 15px;
+		.contenedor-subtitulo{
+			width: 100%;
+			padding-bottom: 15px;
+			.servicios{
+				color: $colorTexto;
+				font-size: 1.8rem;
+				text-align: center;
+			}
+		}
+		.columna-33{
+			width: 30.33%;
+			margin: 5px auto;
+			text-align: center;	
+			
+			.desarrollo{
+				width: 100%;
+				border: 1.5px solid $colorSecundario;
+			}
+			.descripcion-trabajo{
+				color: $colorSecundario;
+				text-decoration: none;
+				&:hover{
+					color: $colorTexto;
+				}
+				h3{
+					font-size: 1rem;
+					padding:7px 0;
+				}
+			}
+		}
+	}
+	.columna-40{
+		width: 40%;
+		background:$colorPrimario;
+		border-left: 2px solid $colorSecundario;
+		display: flex;
+		align-items: center;
+		.contenedor-texto{
+			padding: 0 10px;
+			text-align: center;
+			margin: 0 auto;
+			font-size: 1.1rem;
+			color: $colorTexto;
+			line-height: 2.9rem;
+		}
+	}
+}

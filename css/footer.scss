@@ -1,0 +1,31 @@
+footer{
+	width: 100%;
+	background: $colorSecundario;
+	display: flex;
+	justify-content: space-between;
+	.contenedor-piePagina{
+		color: $colorPrimario;
+		font-size: 1.5rem;
+		width: 50%;
+		padding: 15px;
+		text-align: center;
+		display: flex;
+		align-items:center;
+		
+	}
+	.iconos{
+		width: 50%;
+		font-size: 1.3rem;
+		margin: 0 auto;
+		padding: 15px;
+		.enlaces-iconos{
+			width: 30%;
+			display: flex;
+			margin: 0 auto;
+			justify-content: space-between;
+			a{
+				color: $colorPrimario;
+			}
+		}
+	}
+}
